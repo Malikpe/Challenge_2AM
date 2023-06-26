@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik Perdue Challenge 2</title>
+    <link rel="stylesheet" href="asset/CSS/Portfolio.css">
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: black;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+    </style>
+    <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
+        <style>
+          * {box-sizing: border-box;}
+          
+          .container {
+            position: relative;
+            width: 50%;
+            max-width: 300px;
+          }
+          
+          .image {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+          
+          .overlay {
+            position: absolute; 
+            bottom: 0; 
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+            color: #f1f1f1; 
+            width: 100%;
+            transition: .5s ease;
+            opacity:0;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+          }
+          
+          .container:hover .overlay {
+            opacity: 1;
+          }
+          </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Malik Perdue</h1> 
+        <div class="Me">
+            <a target="_blank" href="./asset/20210414_235157.jpg">
+              <img src="./asset/Images/20210414_235157.jpg" alt="Malik at night posing" width="200" height="250"></a>
+          </div>
+        <nav>
+            <ul> 
+                <li style="float:right"><a class="active"a href="#Resume">Resume</a></li>
+                <li style="float:right"><a class="active"a href="#Contact">Contact</a></li>
+                <li style="float:right"><a class="active"a href="#Expierence">Expierence</a></li>
+                <li style="float:right"><a class="active"a href="#About-me">About Me</a></li>
+            </ul>
+        </nav>
+        <a id="About-me"></a>
+        <h2>About Me</h2>
+        <p>Born and raised on the east side of Detroit, Mi I grew up loving video games and cars and took the path of engineering and technology.
+            I loved figuring out how things worked and throughout school took more interest in my math and science classes.
+            I love to travel and my favorites places involve warm weather and a view of the ocean.
+            My dream vacation day is sitting on the beach with my feet in the sand drinking something I can't pronounce.</p>
+
+            
+        <a id="Expierence"></a>
+        <h2>Expierence</h2>
+        <section class="row justify-center">
+            <div class="card-column">
+              <figure class="card code-card">
+                <h2 class="card-header">Field Service Engineer</h2>
+                <div class="card-body">
+                </div>
+                <pre class="code-block"><code>Travel nationwide installing and servicing robotics systems.</code></pre>
+              </figure>
+              <div class="img-hover-zoom--brightness"><a href="https://www.bacasystems.com/" target="blank"><img src="./asset/Images/Robotics.jpg" alt="Kuka Robot" style="width:800px;height:580px;"></a>
+              </div>
+            <div class="card-column">
+              <figure class="card code-card">
+                <h2 class="card-header">Parks & Recreation</h2>
+                <div class="card-body">
+                </div>
+                <pre class="code-block"><code>Set up games and activities for my community events.</code></pre>
+              </figure>
+              <div class="img-hover-zoom--brightness"><a href="https://www.clintontownship.com/157/Recreation" target="blank"><img src="./asset/Images/Park & Rec.jpg" alt="Kids playing in a park" style="width:300px;height:180px;"></a>
+            </div>
+            <div class="card-column">
+              <figure class="card code-card">
+                <h2 class="card-header">Master Technician</h2>
+                <div class="card-body">
+                </div>
+                <pre class="code-block"><code>Performed routine maintenance on customer vehicles in an oil shoppe.</code></pre>
+              </figure>
+              <div class="img-hover-zoom--brightness"><a href="https://www.uncleedsoil.com/" target="blank"><img src="./asset/Images/Oil Change.jpg" alt="Oil being added to a engine underneath the hood" style="width:300px;height:180px;"></a>
+            </div>
+            <div class="card-column">
+              <figure class="card code-card">
+                <h2 class="card-header">Meat Clerk</h2>
+                <div class="card-body">
+                </div>
+                <pre class="code-block"><code>Cut, packaged, and organized meat at my local grocery store.</code></pre>
+              </figure>
+              <div class="img-hover-zoom--brightness"><a href="https://www.kroger.com/d/meat" target="blank"><img src="./asset/Images/Meat-counter.jpg" alt="Selection of meats in a display case" style="width:300px;height:180px;"  ></a>
+            </div>
+            <div class="card-column">
+              <figure class="card code-card">
+                <h2 class="card-header">Inventory Associate</h2>
+                <div class="card-body">
+                </div>
+                <pre class="code-block"><code>Received, organized, and kept track of inventory for companies.</code></pre>
+              </figure>
+              <div class="img-hover-zoom--brightness"><a href="https://www.cedarpoint.com/" target="blank"><img src="./asset/Images/Warehouse.jpg" alt="Isle of boxes in a warehouse" style="width:300px;height:180px;"></a>
+            </div>
+            <div class="card-column">
+              <figure class="card code-card">
+                <h2 class="card-header">Demolition Worker</h2>
+                <div class="card-body">
+                </div>
+                <pre class="code-block"><code>Demolished walls, floors, and bathrooms to be prepared for carpenters to do their work.</code></pre>
+              </figure>
+              <div class="img-hover-zoom--brightness"><a href="https://en.wikipedia.org/wiki/Demolition" target="blank"><img src="./asset/Images/Demolition.jpg" alt="Sludge hammer through wall" style="width:300px;height:180px;"></a>
+            </div>
+              </div>
+          </section>
+
+        <a id="Contact"></a>
+        <h2>Contact</h2>
+        <p>Mobile: 313-879-8729     <a href="mailto:Malikpe@ymail.com">Email Malikpe@ymail.com</a>    <a href="https://github.com/Malikpe">Github</a></p>
+
+        <a id="Resume"></a>
+        <h2>Resume</h2>
+        <a href="./asset/Malik's-Resume.pdf" target="blank">Malik's Resume</a>
+    </div>
+</body>
+
+<footer class="footer">
+    <h3>Engineered by Malik Perdue</h3>
+</footer>
+</html>
